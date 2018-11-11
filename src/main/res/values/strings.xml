@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">MinGalgeLeg</string>
+    <string name="WonTitel">You won</string>
+    <string name="startButton">Start game</string>
+    <string name="highscoreButton">View highscore</string>
+    <string name="exitAppButton">Exit</string>
+    <string name="wonMessage">You Won!</string>
+    <string name="playAgain">Play again</string>
+    <string name="menuReturn">Return to menu</string>
+    <string name="n1"> 1 </string>
+    <string name="n2">2</string>
+    <string name="n3">3</string>
+    <string name="n4">4</string>
+    <string name="n5">5</string>
+    <string name="n6">6</string>
+    <string name="n7">7</string>
+    <string name="n8">8</string>
+    <string name="n9">9</string>
+    <string name="n10">10</string>
+    <string name="empty"><![CDATA[<unclaimed>]]></string>
+    <string name="emptyNumber">000</string>
+    <string name="Rank">Rank</string>
+    <string name="score">Score</string>
+    <string name="name">Name</string>
+    <string name="returnMain">Return</string>
+    <string name="hsreturn">Return to menu</string>
+</resources>

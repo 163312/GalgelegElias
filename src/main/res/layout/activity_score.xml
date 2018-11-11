@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:layout_editor_absoluteY="81dp">
+
+    <Button
+        android:id="@+id/highscoreButton3"
+        android:layout_width="0dp"
+        android:layout_height="85dp"
+        android:layout_marginStart="45dp"
+        android:layout_marginEnd="45dp"
+        android:layout_marginBottom="4dp"
+        android:background="#fff701"
+        android:fontFamily="monospace"
+        android:text="@string/hsreturn"
+        android:textAllCaps="false"
+        android:textSize="18sp"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:text="@string/highscoreButton" />
+
+    <TextView
+        android:id="@+id/textView47"
+        android:layout_width="135dp"
+        android:layout_height="33dp"
+        android:layout_marginTop="31dp"
+        android:layout_marginEnd="28dp"
+        android:text="@string/name"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="@string/name" />
+
+    <TextView
+        android:id="@+id/textView45"
+        android:layout_width="55dp"
+        android:layout_height="33dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="31dp"
+        android:text="@string/Rank"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="@string/Rank" />
+
+    <ListView
+        android:id="@+id/list1"
+        android:layout_width="105dp"
+        android:layout_height="332dp"
+        android:layout_marginTop="7dp"
+        android:layout_marginBottom="19dp"
+        app:layout_constraintBottom_toTopOf="@+id/highscoreButton3"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView45">
+
+    </ListView>
+
+    <ListView
+        android:id="@+id/list2"
+        android:layout_width="105dp"
+        android:layout_height="332dp"
+        android:layout_marginTop="7dp"
+        android:layout_marginBottom="19dp"
+        app:layout_constraintBottom_toTopOf="@+id/highscoreButton3"
+        app:layout_constraintEnd_toStartOf="@+id/list3"
+        app:layout_constraintStart_toEndOf="@+id/list1"
+        app:layout_constraintTop_toBottomOf="@+id/textView46">
+
+    </ListView>
+
+    <ListView
+        android:id="@+id/list3"
+        android:layout_width="142dp"
+        android:layout_height="332dp"
+        android:layout_marginTop="7dp"
+        android:layout_marginBottom="19dp"
+        app:layout_constraintBottom_toTopOf="@+id/highscoreButton3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView47" />
+
+    <TextView
+        android:id="@+id/textView46"
+        android:layout_width="102dp"
+        android:layout_height="33dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="31dp"
+        android:layout_marginEnd="18dp"
+        android:text="@string/score"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/textView47"
+        app:layout_constraintStart_toEndOf="@+id/textView45"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="@string/score" />
+
+</android.support.constraint.ConstraintLayout>

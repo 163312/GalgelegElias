@@ -1,0 +1,465 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView27"
+        android:layout_width="135dp"
+        android:layout_height="33dp"
+        android:layout_marginEnd="18dp"
+        android:text="TextView"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/textView39"
+        app:layout_constraintTop_toBottomOf="@+id/textView26"
+        tools:text="@string/emptyNumber" />
+
+    <TextView
+        android:id="@+id/textView28"
+        android:layout_width="135dp"
+        android:layout_height="33dp"
+        android:layout_marginEnd="18dp"
+        android:text="TextView"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/textView40"
+        app:layout_constraintTop_toBottomOf="@+id/textView27"
+        tools:text="@string/emptyNumber" />
+
+    <TextView
+        android:id="@+id/textView29"
+        android:layout_width="135dp"
+        android:layout_height="33dp"
+        android:layout_marginEnd="18dp"
+        android:text="TextView"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/textView40"
+        app:layout_constraintTop_toBottomOf="@+id/textView28"
+        tools:text="@string/emptyNumber" />
+
+    <TextView
+        android:id="@+id/textView30"
+        android:layout_width="135dp"
+        android:layout_height="33dp"
+        android:layout_marginEnd="18dp"
+        android:text="TextView"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/textView41"
+        app:layout_constraintTop_toBottomOf="@+id/textView29"
+        tools:text="@string/emptyNumber" />
+
+    <TextView
+        android:id="@+id/textView31"
+        android:layout_width="135dp"
+        android:layout_height="33dp"
+        android:layout_marginEnd="18dp"
+        android:text="TextView"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/textView22"
+        app:layout_constraintTop_toBottomOf="@+id/textView30"
+        tools:text="@string/emptyNumber" />
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="30dp"
+        android:layout_height="33dp"
+        android:layout_marginEnd="12dp"
+        android:layout_marginStart="16dp"
+        android:text="TextView"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/textView30"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView18"
+        tools:text="@string/n9" />
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="30dp"
+        android:layout_height="33dp"
+        android:layout_marginBottom="135dp"
+        android:layout_marginEnd="12dp"
+        android:layout_marginStart="16dp"
+        android:text="TextView"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/textView31"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView19"
+        tools:text="@string/n10" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="30dp"
+        android:layout_height="33dp"
+        android:layout_marginEnd="12dp"
+        android:layout_marginStart="16dp"
+        android:text="TextView"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/textView27"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView15"
+        tools:text="@string/n6" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="30dp"
+        android:layout_height="33dp"
+        android:layout_marginEnd="12dp"
+        android:layout_marginStart="16dp"
+        android:text="TextView"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/textView28"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView16"
+        tools:text="@string/n7" />
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="30dp"
+        android:layout_height="33dp"
+        android:layout_marginEnd="12dp"
+        android:layout_marginStart="16dp"
+        android:text="TextView"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/textView29"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView17"
+        tools:text="@string/n8" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="30dp"
+        android:layout_height="33dp"
+        android:layout_marginEnd="12dp"
+        android:layout_marginStart="16dp"
+        android:text="TextView"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/textView27"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView14"
+        tools:text="@string/n5" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="30dp"
+        android:layout_height="33dp"
+        android:layout_marginEnd="12dp"
+        android:layout_marginStart="16dp"
+        android:text="TextView"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/textView25"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView13"
+        tools:text="@string/n4" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="30dp"
+        android:layout_height="33dp"
+        android:layout_marginEnd="12dp"
+        android:layout_marginStart="16dp"
+        android:text="TextView"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/textView23"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView12"
+        tools:text="@string/n2" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="30dp"
+        android:layout_height="33dp"
+        android:layout_marginEnd="12dp"
+        android:layout_marginStart="16dp"
+        android:text="TextView"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/textView24"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView11"
+        tools:text="@string/n3" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="30dp"
+        android:layout_height="33dp"
+        android:layout_marginEnd="12dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="7dp"
+        android:text="TextView"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/textView43"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView42"
+        tools:text="@string/n1" />
+
+    <TextView
+        android:id="@+id/textView22"
+        android:layout_width="135dp"
+        android:layout_height="33dp"
+        android:layout_marginEnd="38dp"
+        android:text="TextView"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView41"
+        tools:text="@string/empty" />
+
+    <TextView
+        android:id="@+id/textView41"
+        android:layout_width="135dp"
+        android:layout_height="33dp"
+        android:layout_marginEnd="38dp"
+        android:text="TextView"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView40"
+        tools:text="@string/empty" />
+
+    <TextView
+        android:id="@+id/textView40"
+        android:layout_width="135dp"
+        android:layout_height="33dp"
+        android:layout_marginEnd="38dp"
+        android:text="TextView"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView39"
+        tools:text="@string/empty" />
+
+    <TextView
+        android:id="@+id/textView39"
+        android:layout_width="135dp"
+        android:layout_height="33dp"
+        android:layout_marginEnd="38dp"
+        android:text="TextView"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView38"
+        tools:text="@string/empty" />
+
+    <TextView
+        android:id="@+id/textView38"
+        android:layout_width="135dp"
+        android:layout_height="33dp"
+        android:layout_marginEnd="38dp"
+        android:text="TextView"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView37"
+        tools:text="@string/empty" />
+
+    <TextView
+        android:id="@+id/textView37"
+        android:layout_width="135dp"
+        android:layout_height="33dp"
+        android:layout_marginEnd="38dp"
+        android:text="TextView"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView36"
+        tools:text="@string/empty" />
+
+    <TextView
+        android:id="@+id/textView36"
+        android:layout_width="135dp"
+        android:layout_height="33dp"
+        android:layout_marginEnd="38dp"
+        android:text="TextView"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView35"
+        tools:text="@string/empty" />
+
+    <TextView
+        android:id="@+id/textView35"
+        android:layout_width="135dp"
+        android:layout_height="33dp"
+        android:layout_marginEnd="38dp"
+        android:text="TextView"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView34"
+        tools:text="@string/empty" />
+
+    <TextView
+        android:id="@+id/textView34"
+        android:layout_width="135dp"
+        android:layout_height="33dp"
+        android:layout_marginEnd="38dp"
+        android:text="TextView"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView44"
+        tools:text="@string/empty" />
+
+    <TextView
+        android:id="@+id/textView33"
+        android:layout_width="135dp"
+        android:layout_height="33dp"
+        android:layout_marginEnd="38dp"
+        android:layout_marginTop="6dp"
+        android:text="TextView"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="@string/name" />
+
+    <TextView
+        android:id="@+id/textView44"
+        android:layout_width="135dp"
+        android:layout_height="33dp"
+        android:layout_marginEnd="38dp"
+        android:layout_marginTop="7dp"
+        android:text="TextView"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView33"
+        tools:text="@string/empty" />
+
+    <TextView
+        android:id="@+id/textView32"
+        android:layout_width="135dp"
+        android:layout_height="33dp"
+        android:layout_marginEnd="18dp"
+        android:layout_marginTop="6dp"
+        android:text="TextView"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/textView33"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="@string/score" />
+
+    <TextView
+        android:id="@+id/textView43"
+        android:layout_width="135dp"
+        android:layout_height="33dp"
+        android:layout_marginEnd="18dp"
+        android:layout_marginTop="7dp"
+        android:text="TextView"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/textView44"
+        app:layout_constraintTop_toBottomOf="@+id/textView32"
+        tools:text="@string/emptyNumber" />
+
+    <TextView
+        android:id="@+id/textView23"
+        android:layout_width="135dp"
+        android:layout_height="33dp"
+        android:layout_marginEnd="18dp"
+        android:text="TextView"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/textView34"
+        app:layout_constraintTop_toBottomOf="@+id/textView43"
+        tools:text="@string/emptyNumber" />
+
+    <TextView
+        android:id="@+id/textView24"
+        android:layout_width="135dp"
+        android:layout_height="33dp"
+        android:layout_marginEnd="18dp"
+        android:text="TextView"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/textView35"
+        app:layout_constraintTop_toBottomOf="@+id/textView23"
+        tools:text="@string/emptyNumber" />
+
+    <TextView
+        android:id="@+id/textView25"
+        android:layout_width="135dp"
+        android:layout_height="33dp"
+        android:layout_marginEnd="18dp"
+        android:text="TextView"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/textView36"
+        app:layout_constraintTop_toBottomOf="@+id/textView24"
+        tools:text="@string/emptyNumber" />
+
+    <TextView
+        android:id="@+id/textView26"
+        android:layout_width="135dp"
+        android:layout_height="33dp"
+        android:layout_marginEnd="18dp"
+        android:text="TextView"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/textView38"
+        app:layout_constraintTop_toBottomOf="@+id/textView25"
+        tools:text="@string/emptyNumber" />
+
+    <TextView
+        android:id="@+id/textView42"
+        android:layout_width="55dp"
+        android:layout_height="33dp"
+        android:layout_marginStart="3dp"
+        android:layout_marginTop="6dp"
+        android:text="TextView"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/textView32"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="@string/Rank" />
+
+    <Button
+        android:id="@+id/highscoreButton2"
+        android:layout_width="0dp"
+        android:layout_height="104dp"
+        android:layout_marginStart="45dp"
+        android:layout_marginEnd="45dp"
+        android:layout_marginBottom="16dp"
+        android:background="#fff701"
+        android:fontFamily="monospace"
+        android:text="@string/hsreturn"
+        android:textAllCaps="false"
+        android:textSize="18sp"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:text="@string/highscoreButton" />
+
+</android.support.constraint.ConstraintLayout>
